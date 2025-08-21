@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body style="font-family: Arial; background-color: #fff5e6;">
+
+    <h2>Contact Us</h2>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>
