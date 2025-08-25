@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Quiz</h2>
+  <p>Capital of India?</p>
+  <button onclick="check('Delhi')">Delhi</button>
+  <button onclick="check('Mumbai')">Mumbai</button>
+  <p id="result"></p>
+
+  <script>
+    function check(ans) {
+      document.getElementById("result").innerText =
+        ans === 'Delhi' ? "Correct 🎉" : "Wrong ❌";
+    }
+  </script>
+</body>
+</html>
