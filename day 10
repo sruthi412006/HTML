@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Register</h2>
+  <form onsubmit="return validate()">
+    Email: <input id="email" type="email"><br><br>
+    Password: <input id="pass" type="password"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <p id="msg"></p>
+
+  <script>
+    function validate() {
+      let pass = document.getElementById("pass").value;
+      if(pass.length < 6) {
+        document.getElementById("msg").innerText = "Password too short!";
+        return false;
+      }
+      return true;
+    }
+  </script>
+</body>
+</html>
