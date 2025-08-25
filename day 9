@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; text-align: center; }
+    img { border-radius: 50%; }
+  </style>
+</head>
+<body>
+  <h1>Raju's Portfolio</h1>
+  <img src="https://via.placeholder.com/150" alt="Profile"><br><br>
+  <p>Hi, I am Raju. A Web Developer.</p>
+  <a href="mailto:raju@example.com">Contact Me</a>
+</body>
+</html>
